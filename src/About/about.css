@@ -1,0 +1,46 @@
+#about {
+  background-color: #00563b;
+  height: 100%;
+  margin-top: ;
+}
+
+.about-text {
+  width: 80%;
+  margin: 0 auto;
+  color: gold;
+  text-align: center;
+}
+
+.card {
+  width: 70%;
+  margin: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+  background-color: lightyellow;
+}
+
+.card-title {
+  color: chocolate;
+}
+
+.card h4 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-top: 10px;
+}
+
+.card-img-top {
+  max-height: 150px; /* Update the desired height */
+  max-width: 150px; /* Update the desired width */
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  /* background-color: lightyellow; */
+}

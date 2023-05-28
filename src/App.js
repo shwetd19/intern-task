@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Home from './Home/home';
+import About from './About/about';
+import Product from './Product/product';
+import Pricing from './Pricing/pricing';
+import Reviews from './Reviews/review';
+import GovSection from './GovSection/govsection';
+import Services from './Services/service';
+import Articles from './Articles/articles';
+import 'bootstrap/dist/css/bootstrap.css';
 
-function App() {
+// import About from './About';
+// Import other section components here
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Home />
+      <About />
+      <Product />
+      <Pricing />
+      <Reviews />
+      <GovSection />
+      <Services />
+      <Articles />
+      {/* Render other section components here */}
     </div>
   );
 }
